@@ -224,6 +224,7 @@ type SelectBlockElement struct {
 	OptionGroups                 []*OptionGroupBlockObject `json:"option_groups,omitempty"`
 	InitialOption                *OptionBlockObject        `json:"initial_option,omitempty"`
 	InitialUser                  string                    `json:"initial_user,omitempty"`
+	InitialUsers                 []string                  `json:"initial_users,omitempty"`
 	InitialConversation          string                    `json:"initial_conversation,omitempty"`
 	InitialChannel               string                    `json:"initial_channel,omitempty"`
 	DefaultToCurrentConversation bool                      `json:"default_to_current_conversation,omitempty"`
